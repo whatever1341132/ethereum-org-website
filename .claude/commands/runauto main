@@ -1,0 +1,4 @@
+curl -X POST \
+  -H "Authorization: token YOUR_TOKEN" \
+  https://api.github.com/repos/YOURNAME/REPO/actions/workflows/auto-execute.yml/dispatches \
+  -d '{"ref":"main"}'
